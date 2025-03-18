@@ -7,21 +7,19 @@
   <body>
     <a-scene mindar-face embedded color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
       <a-assets>
-        <a-asset-item id="mask" src="ex4/majoras_mask.glb"></a-asset-item>
+        <a-asset-item id="Hat" src="ex4/futuristic_samurai_hat.glb"></a-asset-item>
+        <a-asset-item id="Mask" src="ex4/majoras_mask.glb"></a-asset-item>
     </a-assets>
-    <a-assets>
-      <a-asset-item id="hat" src="ex4/futuristic_samurai_hat.glb"></a-asset-item>
-  </a-assets>
-
-
       <a-camera active="false" position="0 0 0"></a-camera>
-      <a-entity mindar-face-target="anchorIndex: 10">
-        <a-gltf-model rotation="0 -0 0" position="0 -1 -0.3" scale="1 1 1" src="#mask" visible="true"></a-gltf-model>
+
+      <a-entity mindar-face-target="anchorIndex: 197">
+        <a-gltf-model rotation="0 -0 0" position="0 0.6 -0.5" scale="0.7 0.7 0.7" src="#Hat" visible="true"></a-gltf-model>
       </a-entity>
 
       <a-entity mindar-face-target="anchorIndex: 10">
-        <a-gltf-model rotation="0 -0 0" position="0 -1 -0.3" scale="1 1 1" src="#hat" visible="true"></a-gltf-model>
+        <a-gltf-model rotation="0 -0 0" position="0 -0.3 0" scale="0.3 0.3 0.3" src="#Mask" visible="true"></a-gltf-model>
       </a-entity>
+
     </a-scene>
   </body>
 </html>
