@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v6.1.0/dist/aframe-extras.min.js"></script>
+    <script>
+        AFRAME.registerComponent("mylink", {
+        init: function() {  
+         this.el.addEventListener("click", (e) => {              
+            window.location = this.data.href;      
+           })
+        }
+      })
+    </script>
+
+  </head>
+
+  <body>
+  <a-scene cursor="rayOrigin: mouse">
+    <a-assets>
+      <img id="imgSortida" src="assets/entragroc.png" >
+      <img id="imgFantasma" src="assets/fantasma.png" >
+      <img id="imgCasa" src="casadelsusto.jpg" >
+      <a-asset-item id="huggy" src="assets/huggy-wuggy-jumpscare/scene.gltf"></a-asset-item>
+      <a-asset-item id="bat" src="assets/emerald_bat/scene.gltf"></a-asset-item>
+    </a-assets>
+   
+    <a-entity camera look-controls wasd-controls="false">
+    <!-- fuseTimeout = el temps que triga en fer click des de que es posiciona sobre un objecte-->
+     <a-entity cursor="fuse: true; fuseTimeout: 2000"
+           position="0 0 -1"
+           geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03"
+           material="color: red; shader: flat"
+           animation="property: components.material.material.color;
+                 type: color;
+                 to: white;
+                 dur: 1000;
+                 dir: alternate;
+                 loop: true">
+     </a-entity>
+    </a-entity>
+
+
+   
+   
+      <a-sky src="#imgCasa"></a-sky> 
+
+      <a-entity gltf-model="#huggy" position="-15.8 0 3.3" scale="10 10 20.02" rotation="0 0 0"
+                animation="property: position; dur: 3000; from: -300 -20 60; to: 10 -20 0; dir: alternate; loop: true">        
+      </a-entity>
+
+      <a-plane position="20.45 1 -4" src="#imgSortida" rotation="0 620 0" scale="3 3 3" transparent="true" mylink="href: https://ivangonzalez15.github.io/web3d/ ;"
+                animation="property: position; dur: 3000; to: 10 1 -2; dir: alternate; loop: true">
+      </a-plane>
+
+      <a-entity gltf-model="#bat" position="50 222 137" scale="2 2 2" rotation="40 200 0" animation-mixer="clip: Flight"
+                animation="property: position; dur: 3000; to: 0 1 0; dir: alternate; loop: true">
+      </a-entity>
+    
+  </body>
+</html>

@@ -1,0 +1,11 @@
+Model Information:
+* title:	huggy-wuggy-jumpscare
+* source:	https://sketchfab.com/3d-models/huggy-wuggy-jumpscare-a54ddd82453149bcbb1e811cb5bd6bb3
+* author:	guicarvalhoaleixo468 (https://sketchfab.com/guicarvalhoaleixo468)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "huggy-wuggy-jumpscare" (https://sketchfab.com/3d-models/huggy-wuggy-jumpscare-a54ddd82453149bcbb1e811cb5bd6bb3) by guicarvalhoaleixo468 (https://sketchfab.com/guicarvalhoaleixo468) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
