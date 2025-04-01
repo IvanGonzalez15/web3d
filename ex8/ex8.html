@@ -97,12 +97,6 @@
      
       <!-- Element de so -->
       <a-entity id="sound" sound="src: #audio1"></a-entity>
-      <a-entity id="sound1" sound="src: #Pati"></a-entity>
-      <a-entity id="sound2" sound="src: #Planta2"></a-entity>
-      <a-entity id="sound3" sound="src: #Planta1"></a-entity>
-      <a-entity id="sound4" sound="src: #Planta-1"></a-entity>
-      <a-entity id="sound5" sound="src: #cisterna"></a-entity>
-      <a-entity id="sound6" sound="src: #ermita"></a-entity>
     </a-scene>
 
 
@@ -135,7 +129,7 @@
               if (sound.components.sound.isPlaying) {  
                       sound.components.sound.stopSound(); // Para el so si ja s'està reproduint
               }
-              sound.setAttribute('sound1', 'src', '#Pati'); // Assigna l'audio que toca
+              sound.setAttribute('sound', 'src', '#Pati'); // Assigna l'audio que toca
               sound.components.sound.playSound();    // Reprodueix el so      
           })
           }
@@ -148,7 +142,7 @@
               if (sound.components.sound.isPlaying) {  
                       sound.components.sound.stopSound(); // Para el so si ja s'està reproduint
               }
-              sound.setAttribute('sound2', 'src', '#Planta2'); // Assigna l'audio que toca
+              sound.setAttribute('sound', 'src', '#Planta2'); // Assigna l'audio que toca
               sound.components.sound.playSound();    // Reprodueix el so      
           })
           }
@@ -161,7 +155,7 @@
               if (sound.components.sound.isPlaying) {  
                       sound.components.sound.stopSound(); // Para el so si ja s'està reproduint
               }
-              sound.setAttribute('sound3', 'src', '#Planta1'); // Assigna l'audio que toca
+              sound.setAttribute('sound', 'src', '#Planta1'); // Assigna l'audio que toca
               sound.components.sound.playSound();    // Reprodueix el so      
           })
           }
@@ -174,7 +168,7 @@
               if (sound.components.sound.isPlaying) {  
                       sound.components.sound.stopSound(); // Para el so si ja s'està reproduint
               }
-              sound.setAttribute('sound4', 'src', '#Planta-1'); // Assigna l'audio que toca
+              sound.setAttribute('sound', 'src', '#Planta-1'); // Assigna l'audio que toca
               sound.components.sound.playSound();    // Reprodueix el so      
           })
           }
@@ -187,7 +181,7 @@
               if (sound.components.sound.isPlaying) {  
                       sound.components.sound.stopSound(); // Para el so si ja s'està reproduint
               }
-              sound.setAttribute('sound5', 'src', '#cisterna'); // Assigna l'audio que toca
+              sound.setAttribute('sound', 'src', '#cisterna'); // Assigna l'audio que toca
               sound.components.sound.playSound();    // Reprodueix el so      
           })
           }
@@ -200,7 +194,7 @@
               if (sound.components.sound.isPlaying) {  
                       sound.components.sound.stopSound(); // Para el so si ja s'està reproduint
               }
-              sound.setAttribute('sound6', 'src', '#ermita'); // Assigna l'audio que toca
+              sound.setAttribute('sound', 'src', '#ermita'); // Assigna l'audio que toca
               sound.components.sound.playSound();    // Reprodueix el so      
           })
           }
@@ -213,7 +207,7 @@
               if (sound.components.sound.isPlaying) {  
                       sound.components.sound.stopSound(); // Para el so si ja s'està reproduint
               }
-              sound.setAttribute('sound7', 'src', '#castell'); // Assigna l'audio que toca
+              sound.setAttribute('sound', 'src', '#castell'); // Assigna l'audio que toca
               sound.components.sound.playSound();    // Reprodueix el so      
           })
           }
