@@ -1,0 +1,11 @@
+Model Information:
+* title:	skibidi Shrek
+* source:	https://sketchfab.com/3d-models/skibidi-shrek-d01c51c1a92b457d90ec22b1306f6684
+* author:	MrGreycat4k (https://sketchfab.com/es4674569)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "skibidi Shrek" (https://sketchfab.com/3d-models/skibidi-shrek-d01c51c1a92b457d90ec22b1306f6684) by MrGreycat4k (https://sketchfab.com/es4674569) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

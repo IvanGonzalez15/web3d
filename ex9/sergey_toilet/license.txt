@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sergey Toilet
+* source:	https://sketchfab.com/3d-models/sergey-toilet-7520c9c3c5be4f158add40781507eedb
+* author:	ThreadedMetal (https://sketchfab.com/ThreadedMetal)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sergey Toilet" (https://sketchfab.com/3d-models/sergey-toilet-7520c9c3c5be4f158add40781507eedb) by ThreadedMetal (https://sketchfab.com/ThreadedMetal) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Walter white skibidi toilet
+* source:	https://sketchfab.com/3d-models/walter-white-skibidi-toilet-c65a10048ea54738900347f7ac691b16
+* author:	UTTVM 2.9 (https://sketchfab.com/augustkbmurphy)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Walter white skibidi toilet" (https://sketchfab.com/3d-models/walter-white-skibidi-toilet-c65a10048ea54738900347f7ac691b16) by UTTVM 2.9 (https://sketchfab.com/augustkbmurphy) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
